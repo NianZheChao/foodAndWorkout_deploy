@@ -1,0 +1,1 @@
+import{n as e,t}from"./style-BDNrjrV0.js";import{t as n}from"./plain-DI2gyZvi.js";async function r(){return e.profile.get(t)}async function i(t){await e.profile.put(n({...t,id:`current`,updatedAt:Date.now()}))}export{i as n,r as t};
