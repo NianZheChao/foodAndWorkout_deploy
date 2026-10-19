@@ -1,0 +1,1 @@
+import{t as e}from"./function-call-CNdNbGcG.js";function t(e){return e>=1e3?`${(e/1e3).toFixed(1)}k`:String(e)}var n=async n=>{try{return await e({title:`这次请求比较大`,message:`估算约 ${t(n.estimatedTokens)} tokens（输入加输出上限），是「${n.taskId}」任务预算 ${t(n.budgetTokens)} 的 ${n.ratio.toFixed(1)} 倍。仍然发送吗？`,confirmButtonText:`仍然发送`,cancelButtonText:`先不发`}),!0}catch{return!1}};export{n as t};

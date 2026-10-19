@@ -1,0 +1,1 @@
+function e(e){return e.replace(/（/g,`(`).replace(/）/g,`)`).replace(/[\s\u3000]/g,``).replace(/[·・]+$/g,``).toLowerCase()}function t(e){return/啤酒|白酒|红酒|黄酒|米酒|葡萄酒|清酒|威士忌|伏特加|朗姆|鸡尾酒|酒精/.test(e)}function n(e){return e.replace(/[（(].*$/,``).trim()}function r(e){let t=/[（(]([^)）]*)[)）]/.exec(e);return t?t[1].trim():``}export{r as i,t as n,e as r,n as t};
